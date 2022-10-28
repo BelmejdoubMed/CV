@@ -1,0 +1,103 @@
+/* Global */
+
+html {
+  color: white;
+}
+body {
+  width: 90%;
+  margin: auto;
+  background-image: url(./Components/backgroundimg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+/* SPECIFICS */
+/* nav */
+header {
+  box-shadow: 0 0 10px black;
+  padding: 1rem;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 10rem;
+}
+#logo {
+  flex: 1 0 1rem;
+  border-radius: 5px;
+  width: 50px;
+  box-shadow: 0 0 10px black;
+}
+
+.nav-list {
+  right: 0;
+  flex: 0 3 100rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.3rem;
+  list-style: none;
+}
+/* Biography */
+/* p {
+  width: 900px;
+  margin: auto;
+  padding: 20px 0 20px;
+} */
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover {
+  color: aquamarine;
+}
+h1 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+h1:hover {
+  color: aquamarine;
+}
+
+table {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border: 0 3px solid aliceblue;
+  border-radius: 5px;
+}
+dd {
+  text-align: left;
+}
+.arabe,
+.english,
+.french,
+.deutsch {
+  top: 1px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 10px;
+  min-width: 100px;
+  color: transparent;
+}
+.arabe:hover,
+.english:hover,
+.french:hover,
+.deutsch:hover {
+  background-color: aquamarine;
+}
+.competences {
+  font-size: 24px;
+  width: 50%;
+  text-align: left;
+  margin: auto;
+}
+.com-d {
+  font-weight: bolder;
+  font-size: 30px;
+  color: darkgrey;
+}
